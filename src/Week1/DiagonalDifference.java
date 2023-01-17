@@ -2,7 +2,7 @@ package Week1;
 
 import java.io.*;
 import java.util.*;
-class Result {
+class DiagonalDifferenceResult {
 
     /*
      * Complete the 'diagonalDifference' function below.
@@ -41,7 +41,7 @@ public class DiagonalDifference {
             input.add(sub);
         }
         System.out.println(input);
-        Result result = new Result();
+        DiagonalDifferenceResult result = new DiagonalDifferenceResult();
         result.diagonalDifference(input);
         scanner.close();
         // Uncomment the code below to run it on HackerRank;
