@@ -16,7 +16,7 @@ import static java.util.stream.Collectors.toList;
 /*
  * Solved in 34 mins
  */
-class Result {
+class PlusMinusResult {
 
     /*
      * Complete the 'plusMinus' function below.
@@ -70,7 +70,7 @@ public class App {
             .map(Integer::parseInt)
             .collect(toList());
 
-        Result.plusMinus(arr);
+        PlusMinusResult.plusMinus(arr);
 
         bufferedReader.close();
     }
