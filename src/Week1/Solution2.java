@@ -2,7 +2,7 @@ package Week1;
 
 import java.io.*;
 
-class Result {
+class TimeConversionResult {
 
     /*
      * Complete the 'timeConversion' function below.
@@ -49,7 +49,7 @@ public class Solution2 {
 
         String s = bufferedReader.readLine();
 
-        String result = Result.timeConversion(s);
+        String result = TimeConversionResult.timeConversion(s);
 
         bufferedWriter.write(result);
         bufferedWriter.newLine();

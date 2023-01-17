@@ -5,7 +5,7 @@ import java.util.*;
 import java.util.stream.*;
 import static java.util.stream.Collectors.toList;
 
-class Result {
+class CountSwapsResult {
 
     /*
      * Complete the 'countSwaps' function below.
@@ -46,13 +46,13 @@ public class BubbleSort {
     public static void main(String[] args) throws IOException {
         BufferedReader bufferedReader = new BufferedReader(new InputStreamReader(System.in));
 
-        int n = Integer.parseInt(bufferedReader.readLine().trim());
+        // int n = Integer.parseInt(bufferedReader.readLine().trim());
 
         List<Integer> a = Stream.of(bufferedReader.readLine().replaceAll("\\s+$", "").split(" "))
             .map(Integer::parseInt)
             .collect(toList());
 
-        Result.countSwaps(a);
+        CountSwapsResult.countSwaps(a);
 
         bufferedReader.close();
 

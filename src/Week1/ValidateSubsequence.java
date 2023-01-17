@@ -3,7 +3,7 @@ package Week1;
 import java.util.ArrayList;
 import java.util.List;
 
-class Result {
+class ValidateSubsequenceResult {
     public boolean validate(List<Integer> arr, List<Integer> sequence) {
         boolean ans = false;
         int count = 0;
@@ -50,7 +50,7 @@ public class ValidateSubsequence {
         arr.add(-1);
         arr.add(5);
         
-        Result rs = new Result();
+        ValidateSubsequenceResult rs = new ValidateSubsequenceResult();
         System.out.println(rs.validate(arr, seq)); 
         
     }
